@@ -7,15 +7,8 @@ const Footer = () => {
           © {new Date().getFullYear()} Taimoor Raza. All rights reserved.
         </p>
         <div className="flex gap-4">
-          {["LinkedIn", "Fiverr", "Upwork"].map((link) => (
-            <a
-              key={link}
-              href="#"
-              className="text-sm text-muted-foreground hover:text-primary transition-colors"
-            >
-              {link}
-            </a>
-          ))}
+          <a href="https://www.facebook.com/share/181gWidEzd/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-primary transition-colors">Facebook</a>
+          <a href="https://www.linkedin.com/in/maliktaimoorraza" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-primary transition-colors">LinkedIn</a>
         </div>
       </div>
     </footer>
